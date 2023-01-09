@@ -21,6 +21,7 @@ int main()
  int m,n;
  int cun=0;
  int a[100];
+ //输入 
  scanf("%d %d",&m,&n);
  while(cun<n)
  {
@@ -28,6 +29,7 @@ int main()
   a[cun]=x;
   cun++; 
  }
+ //排序 
  int i;
  int b[m-1];
  for(i=0;i<cun;i++)
@@ -46,4 +48,3 @@ int main()
  printf("%d",b[m-1]);
  return 0;
 }
-
